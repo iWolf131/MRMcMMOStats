@@ -1,0 +1,105 @@
+#
+# Configuracoes do menu GUI
+#
+Gui:
+  Titulo: "&7Suas habilidades"
+  Tamanho: 54
+
+#
+# Configuracoes das habilidades
+#
+Habilidades:
+  Acrobatics:
+    Nome: "&eAcrobacia"
+    Ativo: true
+    Material: 313
+    Slot: 10
+  Alchemy:
+    Nome: "&eAlquimia"
+    Ativo: true
+    Material: 373
+    Slot: 12
+  Archery:
+    Nome: "&eArqueiro"
+    Ativo: true
+    Material: 261
+    Slot: 14
+  Axes:
+    Nome: "&eMachado"
+    Ativo: true
+    Material: 279
+    Slot: 16
+  Excavation:
+    Nome: "&eExcavacao"
+    Ativo: true
+    Material: 277
+    Slot: 19
+  Fishing:
+    Nome: "&ePesca"
+    Ativo: true
+    Material: 346
+    Slot: 21
+  Herbalism:
+    Nome: "&eHerbalismo"
+    Ativo: true
+    Material: 293
+    Slot: 23
+  Mining:
+    Nome: "&eMineracao"
+    Ativo: true
+    Material: 278
+    Slot: 25
+  Repair:
+    Nome: "&eReparacao"
+    Ativo: true
+    Material: 145
+    Slot: 28
+  Salvage:
+    Nome: "Salvage"
+    Ativo: false
+    Material: 145
+    Slot: 28
+  Swords:
+    Nome: "&eEspadas"
+    Ativo: true
+    Material: 276
+    Slot: 30
+  Taming:
+    Nome: "&eDomar"
+    Ativo: true
+    Material: 352
+    Slot: 32
+  Unarmed:
+    Nome: "&eDesarmar"
+    Ativo: true
+    Material: 417
+    Slot: 34
+  Woodcutting:
+    Nome: "&eQueda de madeira"
+    Ativo: true
+    Material: 17
+    Slot: 40
+#
+# Lores com e sem VIP
+#
+Lore:
+  - "&fNível: &7{nivel}"
+  - ""
+  - "&fRank: &7{rank}"
+Lore-VIP:
+  - "&fNível: &7{nivel}"
+  - ""
+  - "§fBonus VIP: &e+2.0x"
+  - ""
+  - "&fRank: &7{rank}"
+#
+# Configuracoes da cabeca
+#
+Cabeca:
+  Nome: "&e{nome}"
+  Lore:
+    - "&fNivel Total: &7{nivel}/10000"
+    - "&fNivel Combate: &7{combate}/4000"
+    - ""
+    - "&fRank: &7{rank}"
+  Slot: 4
