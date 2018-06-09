@@ -1,0 +1,7 @@
+name: MRMcMMOStats
+version: 1.0
+main: me.wolf_131.mrmcmmostats.Main
+author: Wolf_131
+commands:
+  stats:
+    aliases: [skill, skills, mcrank, mcstats]
